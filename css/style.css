@@ -2,10 +2,24 @@
     text-align: center;
 }
 
-div[class*=col-1] {
+div[class*=col-], .container:last-child {
     height: 220px;
 }
 
 .padd-100 span {
     line-height: 220px;
+}
+
+.container:last-child .col-6 {
+ padding: 10px 0;
+}
+
+.container:last-child .col-6 .col-6, .container:last-child .col-2, .container:last-child .col-8 {
+    height: 200px;
+    background-color: lightcoral;
+    border-color: white;
+}
+
+.container:last-child span {
+    line-height: 200px;
 }
