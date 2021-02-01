@@ -1,0 +1,11 @@
+.container {
+    text-align: center;
+}
+
+div[class*=col-1] {
+    height: 220px;
+}
+
+.padd-100 span {
+    line-height: 220px;
+}
