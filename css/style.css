@@ -20,6 +20,21 @@ div[class*=col-], .container:last-child {
     border-color: white;
 }
 
+.container:last-child .col-6 .col-2 {
+    width: 87px;
+    margin: 0 5px;
+}
+
+.container:last-child .col-6 .col-8 {
+    width: 370px;
+    margin: 0 9px;
+}
+
+.container:last-child .col-6 .col-6 {
+    width: 280px;
+    margin: 0 5px;
+}
+
 .container:last-child span {
     line-height: 200px;
 }
